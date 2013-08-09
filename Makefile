@@ -17,7 +17,7 @@ lint:
 
 .PHONY: test-integration
 test-integration:
-	./bin/marionette-mocha --profile-base $(PWD)/profile.js $(shell find test/integration) -t 100s
+	./bin/marionette-mocha $(shell find test/integration) -t 100s
 
 .PHONY: test-unit
 test-unit:
