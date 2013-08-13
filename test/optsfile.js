@@ -24,7 +24,6 @@ suite('optsfile', function() {
     });
 
     test('has --magicfoobar', function() {
-      console.log(process.argv);
       assert.ok(process.argv.indexOf('--magicfoobar') !== -1, process.argv);
     });
 

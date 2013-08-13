@@ -25,6 +25,7 @@ test-unit:
 		test/mocha/parentrunner.js \
 		test/childrunner.js \
 		test/profilebuilder.js \
+		test/optsfile.js \
 		test/runtime.js \
 		test/runtime/*.js \
 		test/marionette.js \
